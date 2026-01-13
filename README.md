@@ -1,8 +1,14 @@
 # Create Environment
 
+- If you have conda installed, run the following commands:
 ```bash
 conda create -n gemini_demo python=3.10 -y
 conda activate gemini_demo
+pip install -r requirements.txt
+```
+
+- If you don't have conda installed, run the following commands:
+```bash
 pip install -r requirements.txt
 ```
 
